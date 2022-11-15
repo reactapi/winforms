@@ -10812,7 +10812,7 @@ namespace System.Windows.Forms
                 return;
             }
 
-            DefaultLayout.UpdateAnchorInfoV2(this, overrideAnchors: true);
+            DefaultLayout.UpdateAnchorInfoV2(this, recalculateAnchors: true);
         }
 
         /// <summary>
